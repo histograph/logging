@@ -1,0 +1,42 @@
+{
+  "name": "histograph-logging",
+  "version": "0.1.0",
+  "description": "Logging for Histograph",
+  "main": "./index.js",
+  "dependencies": {
+    "histograph-config": "git+https://github.com/histograph/config#puppetdeploy",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jshint index.js lib && jscs index.js lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/histograph/logging.git"
+  },
+  "keywords": [],
+  "author": "Stefano Bocconi  <stefano@waag.org>",
+  "contributors": [
+    {
+      "name": "Stefano Bocconi",
+      "email": "stefano@waag.org"
+    }
+  ],
+  "license": "MIT",
+  "jshintConfig": {
+    "node": true,
+    "globalstrict": false,
+    "undef": true,
+    "unused": true,
+    "noarg": true
+  },
+  "jscsConfig": {
+    "preset": "airbnb",
+    "requireCamelCaseOrUpperCaseIdentifiers": null,
+    "disallowMultipleVarDecl": true,
+    "requireMultipleVarDecl": null
+  }
+}
