@@ -20,7 +20,7 @@ const SEP = " "
 
 
 function format(label, calling_module, msg){
-  console.log(moment().format('DD-MM-YYYY HH:MM:SS') + SEP + label + SEP + calling_module + SEP + msg);
+  console.log(moment().format('DD-MM-YYYY HH:mm:ss.SS') + SEP + label + SEP + calling_module + SEP + msg);
 }
 
 function Log(calling_module) {
